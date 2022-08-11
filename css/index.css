@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 7%;
+    height: 10%;
+  }
+
+  h5.nav-item{
+    display: inline;
+    list-style-type: none;
+    padding: 10px;
+    margin: 13px 20px;
+    font-size: 20px;
+    font-family: Montserrat 200;
+    font-weight: bold;
+  }
+
+  .active-item{
+    color: #FF6347;
+  }
+  h3{
+    position: relative;
+    left: 30px;
+    top: 120px;
+    font-size: 45px;
+  }
+
+  .left-section>h1{
+    position: relative;
+    left: 28px;
+    top: 145px;
+    font-size: 70px;
+    font-family: Montserrat 700;
+  }
+  .sub-headline{
+    position: relative;
+    left: 135px;
+    top: 200px;
+    font-size: 25px;
+    padding: 5px;
+    
+  }
+
+  p.text{
+    position: relative;
+    left: 50px;
+    top: 265px;
+    width: 550px;
+    font-family: Montserrat;
+  }
+
+  .action-btns>button.action-btn{
+    position: relative;
+    top:335px;
+    left: 50px;
+    color: white;
+    background-color: #FF6347;
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 25px;
+    font-size: 17px;
+  }
+.right-section>button.action-btn{
+    color: white;
+    background-color: #FF6347;
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    position: absolute;
+    right: 390px;
+    bottom: -338px;
+    font-size: 17px;
+}
+  .headphone-div{
+    position: relative;
+    top:-380px;
+    right: 160px;
+    float: right;
+  }
+
+  .right-section{
+    position: relative;
+  }
+
+  .discount{
+    position: absolute;
+    top:62%;
+    left: -11%;
+    
+  }
+  .discount-content{
+    position: absolute;
+    top: 450px;
+    color: white;
+  }
+  .discount-content>h1{
+    font-size: 55px;
+    position: relative;
+    right: 15px;
+  }
+
+  .sub-headline>img{
+    background-color: #FF6347;
+    border-radius: 30px;
+    max-width: 23px;
+  }
+
+  .dot {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    
+  }
+  .yellow-dot{
+    background-color: yellow;
+    margin-right: 13px;
+  }
+  .tomato-dot{
+    background-color: #FF6347;
+    margin-right: 13px;
+  }
+  .black-dot{
+    background-color: black;
+    margin-right: 13px;
+  }
+
+  .dots{
+    position: absolute;
+    right: 405px;
+    bottom: -260px;
+    
+  }
