@@ -145,3 +145,45 @@
     bottom: -260px;
     
   }
+
+  /* Mobile responsiveness */
+
+  @media (max-width:720px){
+    .intro-section{
+      display: flex;
+      flex-direction: column;
+      gap: 800px;
+    }
+
+    .nav-items{
+      display: none;
+    }
+
+    .text{
+      position: relative;
+      right: 80px;
+    }
+    .right-section{
+      position: relative;
+      left: 180px;
+      bottom: 600px;
+    }
+
+    .headphoneimg{
+      width: 500px;
+    }
+    .discount-content{
+      position: relative;
+      bottom: 190px;
+    }
+
+    .dots{
+      display: none;
+    }
+
+    .action-btn{
+      position: relative;
+      margin-bottom: 600px;
+      margin-left: auto;
+    }
+  }
